@@ -2,7 +2,7 @@
     <Style src="project://database/Assets/UI%20Toolkit/styles.uss?fileID=7433441132597879392&amp;guid=1daa10486b704cb4eb5d805901812053&amp;type=3#styles" />
     <ui:VisualElement style="flex-grow: 1; background-color: rgb(236, 140, 0); -unity-text-align: upper-center; justify-content: space-around; align-items: center; align-self: auto; align-content: auto;">
         <ui:VisualElement name="buttonpanel" style="flex-grow: 1; width: 278px; height: 309px; align-content: auto; justify-content: space-evenly; flex-wrap: nowrap; flex-direction: column; padding-top: 167px; padding-bottom: 167px; padding-right: 0; padding-left: 0; position: relative; top: 0; left: 0;">
-            <ui:Button text="Play" name="playbtn" class="button" style="transition-property: all; transition-duration: 0s; transition-timing-function: ease; transition-delay: 0s;" />
+            <ui:Button text="Play" name="playbtn" class="button" />
             <ui:Button text="Quit" name="quitbtn" class="button" />
         </ui:VisualElement>
     </ui:VisualElement>

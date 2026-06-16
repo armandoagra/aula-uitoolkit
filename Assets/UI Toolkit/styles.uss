@@ -28,3 +28,18 @@
     max-height: 48px;
     display: flex;
 }
+
+.button:hover {
+    background-color: rgb(147, 77, 5);
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=04a9e910b434ba64b9ea910529b2b03c&type=3#NotInter-Regular");
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    height: 79px;
+    font-size: 32px;
+    scale: 1.25 1.25;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-back;
+}
