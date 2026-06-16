@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Resource 5
   m_EditorClassIdentifier: 
   resourceName: Stone
+  resourceType: 4
   icon: {fileID: 0}
   MeshOptions:
   - {fileID: 8728854048086142887, guid: 7224f4340508e604f8218de15660ac99, type: 3}

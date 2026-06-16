@@ -123,3 +123,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _meshFilter: {fileID: 8785377087124079912}
   _renderer: {fileID: 7932301070972922597}
+  Resources:
+  - {fileID: 11400000, guid: bf4cfdb7c74b06848a861f4479a24ee9, type: 2}
+  - {fileID: 11400000, guid: 688e462e6d2bb6c45b24be502b3f4503, type: 2}
+  - {fileID: 11400000, guid: 8b029850d104cf24294f293fa6509ea0, type: 2}
+  - {fileID: 11400000, guid: 5a1ea68b1a5416144bb9c7f00b661165, type: 2}
+  - {fileID: 11400000, guid: 3f747b9901b88fb4da11940f78b5bd2d, type: 2}
+  - {fileID: 11400000, guid: da8276d5ea4c22a4eadb02e40ef1b2f1, type: 2}
+  - {fileID: 11400000, guid: 43922b032d524144e8d8d54f4280581b, type: 2}

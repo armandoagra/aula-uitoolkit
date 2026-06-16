@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
@@ -14,6 +15,8 @@ public class ResourceNode : MonoBehaviour
     public bool IsCollected { get; private set; }
     public int ClicksLeft { get; private set; }
     public int TotalClicks { get; private set; }
+
+    public List<ResourceSO> Resources;
 
     private bool _initialised;
 
@@ -75,7 +78,7 @@ public class ResourceNode : MonoBehaviour
 
         GameManager.Instance.AddCoins(coins);
         GameManager.Instance.AddXP(Data.xpReward);
-
+        Resources[Data.resourceType].ResourceAmount++;
         OnCollected?.Invoke(this, coins);
         OnDespawned?.Invoke(this);
         Destroy(gameObject);

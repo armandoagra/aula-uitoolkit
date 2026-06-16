@@ -1,0 +1,30 @@
+.button {
+    background-color: rgb(147, 77, 5);
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=04a9e910b434ba64b9ea910529b2b03c&type=3#NotInter-Regular");
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    height: 79px;
+    font-size: 32px;
+}
+
+.resource {
+    flex-grow: 1;
+    -unity-text-outline-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 48px;
+    width: 96px;
+    top: auto;
+    left: 0;
+    min-width: 96px;
+    min-height: 48px;
+    max-width: 96px;
+    max-height: 48px;
+    display: flex;
+}

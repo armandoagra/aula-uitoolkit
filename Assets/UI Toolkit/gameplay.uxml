@@ -1,0 +1,55 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/styles.uss?fileID=7433441132597879392&amp;guid=1daa10486b704cb4eb5d805901812053&amp;type=3#styles" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: initial; height: 65px; align-items: flex-start; width: 100%; flex-direction: row; align-self: auto; flex-shrink: initial;">
+        <ui:GroupBox data-source="project://database/Assets/ScriptableObjects/1-Stone.asset?fileID=11400000&amp;guid=bf4cfdb7c74b06848a861f4479a24ee9&amp;type=2#1-Stone" data-source-path="ResourceAmount" style="flex-direction: row; background-color: rgb(226, 185, 16); border-top-left-radius: 26px; border-top-right-radius: 26px; border-bottom-right-radius: 26px; border-bottom-left-radius: 26px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+            <ui:VisualElement name="resourcebox" data-source="project://database/Assets/ScriptableObjects/1-Stone.asset?fileID=11400000&amp;guid=bf4cfdb7c74b06848a861f4479a24ee9&amp;type=2#1-Stone" enabled="true" class="button resource">
+                <ui:VisualElement name="resourceimg" style="flex-grow: 1; width: 48px; height: 48px; background-image: url(&quot;project://database/Assets/2D/kenney_ui-pack/PNG/Extra/Double/button_round_line.png?fileID=21300000&amp;guid=f8fff536feefb744e837525a3b92ccf5&amp;type=3#button_round_line&quot;); flex-basis: 64px; left: 2px; background-color: rgba(255, 255, 255, 0); position: absolute; top: 0; -unity-text-outline-color: rgb(0, 0, 0); -unity-background-image-tint-color: rgb(161, 161, 161);">
+                    <ui:Label text="0" name="resourcevalue" data-source="project://database/Assets/ScriptableObjects/1-Stone.asset?fileID=11400000&amp;guid=bf4cfdb7c74b06848a861f4479a24ee9&amp;type=2#1-Stone" data-source-path="ResourceAmount" style="right: -34px; bottom: 0; -unity-text-align: middle-right; color: rgb(0, 0, 0); height: 42px; width: 52px; font-size: 16px;">
+                        <Bindings>
+                            <ui:DataBinding property="text" data-source-path="ResourceAmount" data-source="project://database/Assets/ScriptableObjects/1-Stone.asset?fileID=11400000&amp;guid=bf4cfdb7c74b06848a861f4479a24ee9&amp;type=2#1-Stone" binding-mode="ToTarget" />
+                        </Bindings>
+                    </ui:Label>
+                </ui:VisualElement>
+                <Bindings>
+                    <ui:DataBinding property="style.display" data-source-path="IsVisible" data-source="project://database/Assets/ScriptableObjects/1-Stone.asset?fileID=11400000&amp;guid=bf4cfdb7c74b06848a861f4479a24ee9&amp;type=2#1-Stone" binding-mode="ToTarget" />
+                </Bindings>
+            </ui:VisualElement>
+            <ui:VisualElement name="resourcebox" class="button resource" style="flex-grow: 1; -unity-text-outline-color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; height: 48px; width: 96px; top: auto; left: 0; min-width: 96px; min-height: 48px; max-width: 96px; max-height: 48px; display: flex;">
+                <ui:VisualElement name="resourceimg" style="flex-grow: 1; width: 48px; height: 48px; background-image: url(&quot;project://database/Assets/2D/kenney_ui-pack/PNG/Extra/Double/button_round_line.png?fileID=21300000&amp;guid=f8fff536feefb744e837525a3b92ccf5&amp;type=3#button_round_line&quot;); flex-basis: 64px; left: 2px; background-color: rgba(255, 255, 255, 0); position: absolute; top: 0; -unity-text-outline-color: rgb(0, 0, 0); -unity-background-image-tint-color: rgb(190, 136, 71);">
+                    <ui:Label text="0" name="resourcevalue" data-source="project://database/Assets/ScriptableObjects/2-Bronze.asset?fileID=11400000&amp;guid=688e462e6d2bb6c45b24be502b3f4503&amp;type=2#2-Bronze" data-source-path="ResourceAmount" style="right: -34px; bottom: 0; -unity-text-align: middle-right; color: rgb(0, 0, 0); height: 42px; width: 52px; font-size: 16px;">
+                        <Bindings>
+                            <ui:DataBinding property="text" data-source-path="ResourceAmount" data-source="project://database/Assets/ScriptableObjects/2-Bronze.asset?fileID=11400000&amp;guid=688e462e6d2bb6c45b24be502b3f4503&amp;type=2#2-Bronze" binding-mode="ToTarget" />
+                        </Bindings>
+                    </ui:Label>
+                </ui:VisualElement>
+                <Bindings>
+                    <ui:DataBinding property="style.display" data-source-path="IsVisible" data-source="project://database/Assets/ScriptableObjects/2-Bronze.asset?fileID=11400000&amp;guid=688e462e6d2bb6c45b24be502b3f4503&amp;type=2#2-Bronze" binding-mode="ToTarget" />
+                </Bindings>
+            </ui:VisualElement>
+            <ui:VisualElement name="resourcebox" class="button resource" style="flex-grow: 1; -unity-text-outline-color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; height: 48px; width: 96px; top: auto; left: 0; min-width: 96px; min-height: 48px; max-width: 96px; max-height: 48px;">
+                <ui:VisualElement name="resourceimg" style="flex-grow: 1; width: 48px; height: 48px; background-image: url(&quot;project://database/Assets/2D/kenney_ui-pack/PNG/Extra/Double/button_round_line.png?fileID=21300000&amp;guid=f8fff536feefb744e837525a3b92ccf5&amp;type=3#button_round_line&quot;); flex-basis: 64px; left: 2px; background-color: rgba(255, 255, 255, 0); position: absolute; top: 0; -unity-text-outline-color: rgb(0, 0, 0); -unity-background-image-tint-color: rgb(113, 113, 113);">
+                    <ui:Label text="0" name="resourcevalue" data-source="project://database/Assets/ScriptableObjects/3-Silver.asset?fileID=11400000&amp;guid=8b029850d104cf24294f293fa6509ea0&amp;type=2#3-Silver" data-source-path="ResourceAmount" style="right: -34px; bottom: 0; -unity-text-align: middle-right; color: rgb(0, 0, 0); height: 42px; width: 52px; font-size: 16px;">
+                        <Bindings>
+                            <ui:DataBinding property="text" data-source-path="ResourceAmount" data-source="project://database/Assets/ScriptableObjects/3-Silver.asset?fileID=11400000&amp;guid=8b029850d104cf24294f293fa6509ea0&amp;type=2#3-Silver" binding-mode="ToTarget" />
+                        </Bindings>
+                    </ui:Label>
+                </ui:VisualElement>
+                <Bindings>
+                    <ui:DataBinding property="style.display" data-source-path="IsVisible" data-source="project://database/Assets/ScriptableObjects/3-Silver.asset?fileID=11400000&amp;guid=8b029850d104cf24294f293fa6509ea0&amp;type=2#3-Silver" binding-mode="ToTarget" />
+                </Bindings>
+            </ui:VisualElement>
+            <ui:VisualElement name="resourcebox" class="button resource" style="flex-grow: 1; -unity-text-outline-color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; height: 48px; width: 96px; top: auto; left: 0; min-width: 96px; min-height: 48px; max-width: 96px; max-height: 48px; display: flex;">
+                <ui:VisualElement name="resourceimg" style="flex-grow: 1; width: 48px; height: 48px; background-image: url(&quot;project://database/Assets/2D/kenney_ui-pack/PNG/Extra/Double/button_round_line.png?fileID=21300000&amp;guid=f8fff536feefb744e837525a3b92ccf5&amp;type=3#button_round_line&quot;); flex-basis: 64px; left: 2px; background-color: rgba(255, 255, 255, 0); position: absolute; top: 0; -unity-text-outline-color: rgb(0, 0, 0); -unity-background-image-tint-color: rgb(255, 189, 0); display: flex; visibility: visible;">
+                    <ui:Label text="0" name="resourcevalue" data-source="project://database/Assets/ScriptableObjects/4-Gold.asset?fileID=11400000&amp;guid=5a1ea68b1a5416144bb9c7f00b661165&amp;type=2#4-Gold" data-source-path="ResourceAmount" style="right: -34px; bottom: 0; -unity-text-align: middle-right; color: rgb(0, 0, 0); height: 42px; width: 52px; font-size: 16px;">
+                        <Bindings>
+                            <ui:DataBinding property="text" data-source-path="ResourceAmount" data-source="project://database/Assets/ScriptableObjects/4-Gold.asset?fileID=11400000&amp;guid=5a1ea68b1a5416144bb9c7f00b661165&amp;type=2#4-Gold" binding-mode="ToTarget" />
+                        </Bindings>
+                    </ui:Label>
+                </ui:VisualElement>
+                <Bindings>
+                    <ui:DataBinding property="style.display" data-source="project://database/Assets/ScriptableObjects/4-Gold.asset?fileID=11400000&amp;guid=5a1ea68b1a5416144bb9c7f00b661165&amp;type=2#4-Gold" binding-mode="ToTarget" data-source-path="IsVisible" />
+                </Bindings>
+            </ui:VisualElement>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

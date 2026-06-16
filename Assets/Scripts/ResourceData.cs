@@ -5,6 +5,7 @@ using UnityEngine;
 public class ResourceData : ScriptableObject
 {
     public string resourceName = "Stone";
+    public int resourceType = 0;
     public Sprite icon;
     public List<Mesh> MeshOptions;
     public Material Material;
